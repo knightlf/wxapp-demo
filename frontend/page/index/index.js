@@ -142,7 +142,8 @@ Page({
       return;
     }
     wx.request({
-      url: 'http://127.0.0.1/login',
+      //url: 'http://127.0.0.1/login',
+      url: 'http://wxapp.aida.land/login',
       data: {
         userId: this.data.id,
         userPwd: this.data.pwd
